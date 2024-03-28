@@ -11,7 +11,7 @@ def index():
 @app.route('/api/request', methods=['GET'])
 def send_request():
     # You can add any necessary logic here
-    return 'Response is got from backend!Success'
+    return '200 OK'
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0")
